@@ -1,0 +1,34 @@
+*{
+    transition: all 2sg;
+
+}
+body{
+    background: skyblue;
+    background-image: url('https://images.unsplash.com/photo-1565638459249-c85cbb2faaa8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80');
+}
+
+.row{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between
+}
+.column{
+    background: rgba(255, 255,255, 1);
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+
+}
+#bio .column{
+    width: 50%;
+    background: yellow;
+}
+.column:hover{
+    transform: rotate(777deg);
+    background: aqua;
+
+}
+#bio .column:hover{
+    transform: rotateY(777deg);
+    background: cadetblue;
+}
